@@ -1,0 +1,19 @@
+.footer-container {
+    background-color: rgba(22, 22, 190, 0.993);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-gap: 10px;
+    grid-template-areas:
+    "footer-image footer-item-1 footer-item-2 footer-item-3"
+    "copyright copyright copyright copyright"
+}
+
+.footer-image {grid-area: footer-image;}
+.footer-item-1 {grid-area: footer-item-1}
+.footer-item-2 {grid-area: footer-item-2;}
+.footer-item-3 {grid-area: footer-item-3;}
+.footer-copyright {
+    color: white;
+    grid-area: copyright;
+}

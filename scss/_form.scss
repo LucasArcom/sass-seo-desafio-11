@@ -1,0 +1,31 @@
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.btn-primary {
+    border-radius: 15px !important;
+}
+
+.other-option-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: $general-margin;
+}
+
+.other-option-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-option-title {
+    margin-right: 10px;
+}
+
+.other-option-link {
+    font-size: 20px;
+}
