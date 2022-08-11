@@ -194,4 +194,8 @@ form {
   .footer-container {
     display: flex;
     justify-content: center;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .media-ies {
+    max-width: 250px !important; }
+  .people-logo {
+    max-width: 320px; } }
