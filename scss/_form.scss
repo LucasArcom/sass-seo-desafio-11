@@ -26,6 +26,11 @@ form {
     margin-right: 10px;
 }
 
+// EXTEND
 .other-option-link {
+    @extend .navbar-link;
     font-size: 20px;
+    color: black;
+    background-color: $background-nav-footer;
+    margin: 5px;
 }

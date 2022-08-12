@@ -1,8 +1,6 @@
 img {box-shadow: 10px;}
 
 .phrase-container {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     margin: $general-margin;
@@ -38,16 +36,6 @@ img {box-shadow: 10px;}
     justify-content: center;
 }
 
-.general-title {
-    font-size: 25px;
-    margin-top: $general-margin;
-}
-
-.notes-title {
-    font-size: 20px;
-    margin-top: 15px;
-}
-
 .notes-col {
     display: flex;
     flex-direction: column;
@@ -66,4 +54,26 @@ img {box-shadow: 10px;}
 
 .people-logo {
     max-width: 500px;
+}
+
+// MAPA
+$titles: (
+    general: 25px,
+    notes: 20px,
+);
+
+@each $title, $value in $titles {
+    .title-#{$title} {
+        font-size: $value;
+    }
+}
+
+// MIXIN
+@mixin flex ($flex, $direction,) {
+    display: $flex;
+    flex-direction: $direction;
+}
+
+.phrase-container {
+    @include flex (flex, column)
 }
