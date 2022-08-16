@@ -1,5 +1,5 @@
 # sass-seo-desafio-11
-Repositorio para el desafío de SASS II + SEO 
+Repositorio para el desafío de SASS II + SEO y Tercera preentrega del proyecto final.
 
 // importé los archivos que componen la página.
 // agregué imágenes alternativas a todas las etiquetas img que lo requerían.
@@ -9,3 +9,5 @@ Repositorio para el desafío de SASS II + SEO
 // agruegué un mapa que crea clases para dos diferentes títulos.
 // agregué un mixin que permite asignar valores de display y flex-direction.
 // agruegué un extend que asigna estilos de los links del footer y el navbar a los links de "segunda-opción".
+// limité las keywords a 5.
+// agruegué una propiedad width en media-querie.scss para limitar el tamaño de la imagen de horarios.

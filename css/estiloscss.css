@@ -161,7 +161,7 @@ form {
 
 .other-option-link {
   font-size: 20px;
-  color: black;
+  color: white;
   background-color: rgba(22, 22, 190, 0.993);
   margin: 5px; }
 
@@ -201,4 +201,6 @@ form {
   .media-ies {
     max-width: 250px !important; }
   .people-logo {
-    max-width: 320px; } }
+    max-width: 320px; }
+  .horarios-img {
+    width: 320px; } }
