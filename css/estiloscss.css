@@ -113,9 +113,10 @@ img {
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  background-color: #6488d4;
+  background-color: rgba(22, 22, 190, 0.993);
   border-radius: 20px;
-  padding: 15px; }
+  padding: 15px;
+  color: white; }
 
 .bold-span {
   font-weight: 1000; }

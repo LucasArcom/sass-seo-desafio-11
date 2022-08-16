@@ -41,9 +41,10 @@ img {box-shadow: 10px;}
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    background-color: rgb(100, 136, 212);
+    background-color: $background-nav-footer;
     border-radius: 20px;
     padding: 15px;
+    color: white;
 }
 
 .bold-span {font-weight: 1000;}
