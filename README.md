@@ -11,3 +11,4 @@ Repositorio para el desafío de SASS II + SEO y Tercera preentrega del proyecto 
 // agruegué un extend que asigna estilos de los links del footer y el navbar a los links de "segunda-opción".
 // limité las keywords a 5.
 // agruegué una propiedad width en media-querie.scss para limitar el tamaño de la imagen de horarios.
+// modifiqué la página de noticias para una mejor lectura, agregando un color de fondo, bordes redondeados y cambiando la fomra en la que utiliza el grid de bootstrap.
